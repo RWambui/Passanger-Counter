@@ -7,14 +7,17 @@
 // }
 
 //initialize
+let saveEl = document.getElementById("save-el");
 let countEl = document.getElementById("count-el");
 let count = 0;
 
 function increment() {
     count += 1;
-    countEl.innerHTML = count;
+    countEl.innerText = count;
 }
 
 function save() {
-    console.log(count);
+    let countStr = count + " - ";
+    saveEl.innerText += countStr;
+    // console.log(count);
 }
