@@ -11,7 +11,7 @@ let countEl = document.getElementById("count-el");
 let count = 0;
 
 function increment() {
-    count = count + 1;
+    count = +1;
     console.log("clicked");
     countEl.innerHTML = count;
 }
@@ -19,4 +19,3 @@ function increment() {
 function save() {
     console.log(count);
 }
-save();
