@@ -6,8 +6,8 @@
 //     console.log("The button was clicked");
 // }
 
-//initialize
-let countEl = document.getElementById("count-el");
+//initialize = 0
+// let countEl = document.getElementById("count-el");
 let count = 0;
 
 function increment() {
