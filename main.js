@@ -6,7 +6,7 @@
 //     console.log("The button was clicked");
 // }
 
-//initialize = 0
+//initialize
 let countEl = document.getElementById("count-el");
 let count = 0;
 
@@ -15,3 +15,8 @@ function increment() {
     console.log("clicked");
     countEl.innerHTML = count;
 }
+
+function save() {
+    console.log(count);
+}
+save();
