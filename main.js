@@ -7,7 +7,7 @@
 // }
 
 //initialize = 0
-// let countEl = document.getElementById("count-el");
+let countEl = document.getElementById("count-el");
 let count = 0;
 
 function increment() {
